@@ -10,7 +10,10 @@
 const a = [1, 2, 3, 4, 5, 6, 7];
 
 // この下にコードを書く
-const result = [];
+const length = Math.ceil(a.length / 2);
+const result = new Array(length)
+  .fill()
+  .map((_, i) => a.slice(i * 2, (i + 1) * 2));
 
 // ここまで。この下は編集しない
 

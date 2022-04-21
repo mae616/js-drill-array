@@ -10,8 +10,9 @@
 const a = [1, 2, 3, 4];
 
 // この下にコードを書く
-const result = [];
-const deletedItem = 0;
+
+const result = a.slice(0, -1);
+const deletedItem = a[a.length - 1];
 
 // ここまで。この下は編集しない
 

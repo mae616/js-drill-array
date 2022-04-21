@@ -9,7 +9,9 @@
 const a = [1, 1, 2, 1, 3, 5, 3, 2];
 
 // この下にコードを書く
-const result = [];
+const result = a.filter(
+  (element, index, array) => array.indexOf(element) === index
+);
 
 // ここまで。この下は編集しない
 

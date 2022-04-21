@@ -10,7 +10,7 @@ const a = [1, 2, 3];
 const b = [4, 5, 6];
 
 // この下にコードを書く
-const result = [];
+const result = [...a, ...b];
 
 // ここまで。この下は編集しない
 
